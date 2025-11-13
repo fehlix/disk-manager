@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 12 Nov 2025 19:22:06 -0500
+Source: disk-manager
+Binary: disk-manager
+Architecture: source all
+Version: 25.11.01
+Distribution: mx
+Urgency: medium
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ disk-manager - simple graphical filesystem configurator
+Changes:
+ disk-manager (25.11.01) mx; urgency=medium
+ .
+   * add support for ntfs3 file system
+   * remove "ntfs read-only" from selection list
+Checksums-Sha1:
+ a2b60e1b1b02830450687da5b919a633ddfc872b 1638 disk-manager_25.11.01.dsc
+ abfcf30c720857cb6b9446a56bdd50cf6e16b3ec 122596 disk-manager_25.11.01.tar.xz
+ 215af73e45c05f64d261f861bc6ffb180559b295 99496 disk-manager_25.11.01_all.deb
+ 1e2f5a53318da7fdff30e120e657e508bdcbda34 8591 disk-manager_25.11.01_amd64.buildinfo
+Checksums-Sha256:
+ 8b731e5c30d163c4d95ef7237dd29557421296f9b65514dfc562de6e84513012 1638 disk-manager_25.11.01.dsc
+ 9e7ca87bc23d82f74fbd636cf25490e0124585a9deb10998551bc91a61441395 122596 disk-manager_25.11.01.tar.xz
+ 2ef0494c45a5fdf6efa4e762ab102c10ef0b662bc78d0255a108bd9eb4e1f368 99496 disk-manager_25.11.01_all.deb
+ 9baef2033038056f1036360d40681f4a6b5eae6bbff2d58210b76b7376261cb8 8591 disk-manager_25.11.01_amd64.buildinfo
+Files:
+ 0ed6116f965613ded2fbd9a312c2ffce 1638 admin optional disk-manager_25.11.01.dsc
+ 40b726c92e2bffaf7ca77e12d16135f8 122596 admin optional disk-manager_25.11.01.tar.xz
+ cb391708a51a60e043b1878900ee1a95 99496 admin optional disk-manager_25.11.01_all.deb
+ b7b78f02c42f09f008ff993d10b53157 8591 admin optional disk-manager_25.11.01_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmkVLgwTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6R1yD/9VlbbB5Ifta5YViO5vh5qj2Sgk9XXO
+Ur1n8BKQ8RqSLNbXIPU8+y/pcgIXCc7t053SVstK22bw8xl6MC/pL+4uOJaG9+Dy
+bMzEFGr+L7pvbR/nqyajAaGLrvthh9Yv+8YyT1Hb2diclkvFSev1aIbgX3J23XHE
++NOq5WHFPpEvy39qy9slvhUvXn/oOufIW+s12g/ZTa5Z5WwSI5MkmYIzCzTGHNcw
+1ZpTpVZZQ9+ag/QIQodRhWMsIoi4z3RvIEAkvOyFahXq2cHI8r750TeV+n9YK+7u
+7y/EjsmOF5WO220mq793iOF0k8Eu4tXsA+n+SeBkiLU3Uvt6AWFcsKRXkY/I4mlr
+AqCdQEgLg59JM/PzQ/A89H5HAXl7UzNc+GpZU0fqo90JVVFZs2DseB2kZpW9QfD/
+TJUNp6P8JYA33KP4BCTMjxXoQ1CSzp17EkCERY/dg9bDvOFT84hEGZScsjZJuTzv
+q5px9LdFFcT5hTzA46EIiNVbEUr0KbJeEEwsxmEfnPHVsLvmuIpl2iswPoIR/Xnz
+uK2tldqyfnkzGDbRGa/bf9YOEzNSSBo1tszqcdGBgdUU/hiGY0BFKxD0JlBW8zZ3
+yW05wGIK6EazHsp4WhhOfz/DYXjsUvi8qAW5RPZogLxfA4W7dfLdhhE7gNDXyKIs
+3Og6weV+r8FjwQ==
+=4AJw
+-----END PGP SIGNATURE-----
