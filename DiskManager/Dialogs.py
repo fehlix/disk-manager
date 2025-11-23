@@ -68,9 +68,10 @@ class EditPartition(SimpleGladeApp) :
         # Gtk.Tooltips().set_tip(self.default_button, _("Return options to defaults"))
         # Gtk.Tooltips().set_tip(self.browser_button, _("Select a directory"))
          
+        # deduplicate mount options
+        self.entry["FSTAB_OPTION"] = ','.join(dict.fromkeys(self.entry["FSTAB_OPTION"].split(',')))
         self.path.set_text(self.entry["FSTAB_PATH"])
         self.options3.set_text(self.entry["FSTAB_OPTION"])
-        
         self.vbox_driver.hide()
         if "FS_DRIVERS" in self.entry :
             self.drivers = self.entry["FS_DRIVERS"]
@@ -205,7 +206,7 @@ class EditPartition(SimpleGladeApp) :
         current = self.driver_box.get_active_text().split()[0]
         if self.entry["DEVICE"] and not self.entry["FSTAB_TYPE"] == current :
             self.disk.set(self.entry, type=current)
-            # deduplicate
+            # deduplicate mount options
             self.entry["FSTAB_OPTION"] = ','.join(dict.fromkeys(self.entry["FSTAB_OPTION"].split(',')))
 
             self.options3.set_text(self.entry["FSTAB_OPTION"])
