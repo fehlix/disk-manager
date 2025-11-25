@@ -4,12 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# anticapitalista <anticapitalista@riseup.net>, 2022
-# prolinux ukrainian <prolinux@ukr.net>, 2022
-# Tymofii Lytvynenko <till.svit@gmail.com>, 2022
-# Максим Пличко, 2022
-# bogos Bogos, 2023
-# Arsenii Shcherbal, 2024
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -18,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-16 00:46+0100\n"
 "PO-Revision-Date: 2022-01-21 17:21+0000\n"
-"Last-Translator: Arsenii Shcherbal, 2024\n"
-"Language-Team: Ukrainian (https://app.transifex.com/anticapitalista/teams/10162/uk/)\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025\n"
+"Language-Team: Georgian (https://app.transifex.com/anticapitalista/teams/10162/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../disk-manager.in:66
 msgid "Insufficient rights"
@@ -36,7 +31,7 @@ msgstr ""
 
 #: ../data/disk-manager.glade.h:1
 msgid "<b>Driver</b>"
-msgstr ""
+msgstr "<b>დრაივერი</b>"
 
 #: ../data/disk-manager.glade.h:2
 msgid "This driver seems to not be available for this type."
@@ -48,7 +43,7 @@ msgstr ""
 
 #: ../data/disk-manager.glade.h:4
 msgid "<b>Options</b>"
-msgstr ""
+msgstr "<b>პარამეტრები</b>"
 
 #: ../data/disk-manager.glade.h:5
 msgid "Check device every 30 boots"
@@ -60,19 +55,19 @@ msgstr ""
 
 #: ../data/disk-manager.glade.h:7
 msgid "<b>Vendor:</b>"
-msgstr ""
+msgstr "<b>მომწოდებელი:</b>"
 
 #: ../data/disk-manager.glade.h:8
 msgid "<b>Model:</b>"
-msgstr ""
+msgstr "<b>რეჟიმი:</b>"
 
 #: ../data/disk-manager.glade.h:9
 msgid "<b>Serial:</b>"
-msgstr ""
+msgstr "<b>სერიული ნომერი:</b>"
 
 #: ../data/disk-manager.glade.h:10
 msgid "<b>bus:</b>"
-msgstr ""
+msgstr "<b>მატარებელი:</b>"
 
 #: ../data/disk-manager.glade.h:11 ../DiskManager/Dialogs.py:372
 #: ../DiskManager/Dialogs.py:373 ../DiskManager/Dialogs.py:374
@@ -81,19 +76,19 @@ msgstr ""
 
 #: ../data/disk-manager.glade.h:12
 msgid "Drive"
-msgstr ""
+msgstr "ამძრავი"
 
 #: ../data/disk-manager.glade.h:13
 msgid "<b>Device:</b>"
-msgstr ""
+msgstr "<b>მოწყობილობა:</b>"
 
 #: ../data/disk-manager.glade.h:14
 msgid "<b>Type:</b>"
-msgstr ""
+msgstr "<b>ტიპი:</b>"
 
 #: ../data/disk-manager.glade.h:15
 msgid "<b>Label:</b>"
-msgstr ""
+msgstr "<b>ჭდე:</b>"
 
 #: ../data/disk-manager.glade.h:16
 msgid "<b>Mount point:</b>"
@@ -101,11 +96,11 @@ msgstr ""
 
 #: ../data/disk-manager.glade.h:17
 msgid "<b>Options:</b>"
-msgstr ""
+msgstr "<b>პარამეტრები:</b>"
 
 #: ../data/disk-manager.glade.h:18
 msgid "Volume"
-msgstr ""
+msgstr "ტომი"
 
 #: ../data/disk-manager.glade.h:19
 msgid "<b>Total size:</b>"
@@ -125,7 +120,7 @@ msgstr ""
 
 #: ../data/disk-manager.glade.h:23
 msgid "Size"
-msgstr "Розмір"
+msgstr "ზომა"
 
 #: ../data/disk-manager.glade.h:24
 msgid ""
@@ -140,7 +135,7 @@ msgstr ""
 
 #: ../data/disk-manager.desktop.in.in.h:2
 msgid "Manage filesystem configuration"
-msgstr "Менеджер конфігурації файлової системки"
+msgstr ""
 
 #: ../DiskManager/Dialogs.py:127 ../DiskManager/Fstab/Mounter.py:206
 #, python-format
@@ -193,7 +188,7 @@ msgstr ""
 
 #: ../DiskManager/Dialogs.py:433
 msgid "Remove selected"
-msgstr "Видалити обране"
+msgstr ""
 
 #: ../DiskManager/Dialogs.py:433
 msgid "Don't show me this warning in the future."
@@ -225,15 +220,15 @@ msgstr ""
 
 #: ../DiskManager/Dialogs.py:510
 msgid "translator-credits"
-msgstr ""
+msgstr "თემური დოღონაძე"
 
 #: ../DiskManager/DiskManager.py:132
 msgid "Enable"
-msgstr "Увімкнути"
+msgstr "ჩართვა"
 
 #: ../DiskManager/DiskManager.py:138
 msgid "Device"
-msgstr "Пристрій"
+msgstr "მოწყობილობა"
 
 #: ../DiskManager/DiskManager.py:151
 msgid "Mount point"
@@ -241,19 +236,19 @@ msgstr ""
 
 #: ../DiskManager/DiskManager.py:158
 msgid "Type"
-msgstr "Тип"
+msgstr "ტიპი"
 
 #: ../DiskManager/DiskManager.py:165
 msgid "Total"
-msgstr ""
+msgstr "სულ"
 
 #: ../DiskManager/DiskManager.py:172
 msgid "Free"
-msgstr "Вільно"
+msgstr "თავისუფალი"
 
 #: ../DiskManager/DiskManager.py:179
 msgid "Used"
-msgstr "Використано"
+msgstr "გამოყენებულია"
 
 #: ../DiskManager/DiskManager.py:292
 msgid "Editing system partition?"
@@ -269,11 +264,11 @@ msgstr ""
 
 #: ../DiskManager/DiskManager.py:399
 msgid "Unmount"
-msgstr "Від'єднати"
+msgstr "მოხსნა"
 
 #: ../DiskManager/DiskManager.py:402
 msgid "Mount"
-msgstr "Монтувати"
+msgstr "მიმაგრება"
 
 #: ../DiskManager/DiskManager.py:407
 msgid "Reverting to an older version?"
@@ -285,23 +280,23 @@ msgstr ""
 
 #: ../DiskManager/DiskManager.py:408
 msgid "Do you want to continue?"
-msgstr "Бажаєте продовжити? "
+msgstr ""
 
 #: ../DiskManager/Utility.py:45
 msgid "KB"
-msgstr ""
+msgstr "კბ"
 
 #: ../DiskManager/Utility.py:45
 msgid "MB"
-msgstr "МБ"
+msgstr "მბ"
 
 #: ../DiskManager/Utility.py:45
 msgid "GB"
-msgstr "ГБ"
+msgstr "გბ"
 
 #: ../DiskManager/Utility.py:45
 msgid "TB"
-msgstr ""
+msgstr "ტბ"
 
 #: ../DiskManager/Fstab/FstabHandler.py:435
 msgid "Unmounting disabled devices?"

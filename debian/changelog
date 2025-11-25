@@ -1,8 +1,9 @@
 disk-manager (25.11.03) mx; urgency=medium
 
   * deduplicate mount options
+  * translations refresh
 
- -- fehlix <fehlix@mxlinux.org>  Sun, 23 Nov 2025 18:09:55 -0500
+ -- fehlix <fehlix@mxlinux.org>  Mon, 24 Nov 2025 20:08:15 -0500
 
 disk-manager (25.11.02) mx; urgency=medium
 
