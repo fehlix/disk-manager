@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 24 Nov 2025 20:08:15 -0500
+Source: disk-manager
+Binary: disk-manager
+Architecture: source all
+Version: 25.11.03
+Distribution: mx
+Urgency: medium
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ disk-manager - simple graphical filesystem configurator
+Changes:
+ disk-manager (25.11.03) mx; urgency=medium
+ .
+   * deduplicate mount options
+   * translations refresh
+Checksums-Sha1:
+ e69b92063b6a048c95dd1a4980aec526fe8d8424 1638 disk-manager_25.11.03.dsc
+ ca7a548eaa48483930ad3eca79a03f8ba6b69149 123476 disk-manager_25.11.03.tar.xz
+ 9972116c0754140854963428227b3b901355669d 100204 disk-manager_25.11.03_all.deb
+ ff8ff68b3cd361b30f79fe6b14261b5e4a022e43 8570 disk-manager_25.11.03_amd64.buildinfo
+Checksums-Sha256:
+ 6495a7f8babeed18f05d4a3313f7fa8f42cbf1a44128242097d744d62a90b66f 1638 disk-manager_25.11.03.dsc
+ e3bdc539966e799fb81689ec90dc365e2153d126a1bfe871d5926534785ef874 123476 disk-manager_25.11.03.tar.xz
+ 9a76b13330aefec197240797a372136fc77a0a2949bb13f71a1528c0bd372052 100204 disk-manager_25.11.03_all.deb
+ 1d38f37ce81ecce37d6c3538e2712fa49befaad6c3771a0d9a17a28b5cfb3d58 8570 disk-manager_25.11.03_amd64.buildinfo
+Files:
+ 767f85ce7d3f04fc8f0e6760a3b04af9 1638 admin optional disk-manager_25.11.03.dsc
+ 5c7a6e1de7b4d76cd56d5bc6725978e3 123476 admin optional disk-manager_25.11.03.tar.xz
+ 23ad5175c8e21dd8930a43d69d1f03b2 100204 admin optional disk-manager_25.11.03_all.deb
+ 39d444ff3dfda310931ebcb5a664d976 8570 admin optional disk-manager_25.11.03_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmkll7MTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6Tz9EACq1j/+y5OGUjoZCZoDhzKCjyTj7pXC
+N3PiDxm4NugBICzscDya4id1h6PgRf5NOKLH2LVRzVQSI/+gIY6KdEu4ApVd/bkQ
+KXtHoz/Qneb/xhU2qIIl3wvdnlef5m3i7UBp2nBdaNxgcYyVpgcBvWGdNI1UNmqi
+qLcYGivzWCHgM86u7hCi+bvCQLF6B1Zv+14z37w1FMIEfKR4YXoeoRJJoLdeDKWl
+uff8lrAw9UIfg9D8b4SM8B7/NfCBKBmKvRvGu6zv/yBCiDTHqeNPazeFETKxMZtq
+IoGCvtBpT50TiqoP1efTZB3pkKgkakwHSLIpdETHDRbqNcIbK0h37Vh7q4sCXozM
+kBniV62Vvshm6QsC1CBQpaD8NYtzkWotZVdNRXiHtaNLR9+ej41MC5kQtzaqvqqa
+vUG+FQPgRsOLIVqxOIjm1+2pxDx6cWxLalivu68iY0yOKIk1Few3v4ChWRNPKxXW
+Gz0lq1QnzMO4YqvLiBlmHYsMofxVvZz9+J6uWc8tTYb7xELC/+yIfS42nI1MiQIv
+lWgqGqhymXwOEtXf4fZnL86XdvjS7PFCCkM7L7V/DlSytBedLTUFiylkqk2RUaFp
+BBqmUoeAcFijuGJsw2cUxxUb8wXs76Na6qJjwizlNW0z0WivYerBo8CC4lDANlyT
+thU0/qFITXnEfw==
+=ANFa
+-----END PGP SIGNATURE-----
